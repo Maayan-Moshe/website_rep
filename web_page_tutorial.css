@@ -1,0 +1,5 @@
+code { font-weight: bold; font-family: monospace; font-size: 14px;}
+code.not5, span.not5 { color: #aaaaaa; background-color: transparent; }
+code.new5, span.new5 { color: #b52c25; background-color: transparent; }
+code.new5but, span.new5but { color: #e07f7a; background-color: transparent; }
+.code_par { margin-left: 40px; font-weight: bold; font-family: monospace; font-size: 14px; display: block;}
