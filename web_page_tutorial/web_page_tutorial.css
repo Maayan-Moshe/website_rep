@@ -3,3 +3,8 @@ code.not5, span.not5 { color: #aaaaaa; background-color: transparent; }
 code.new5, span.new5 { color: #b52c25; background-color: transparent; }
 code.new5but, span.new5but { color: #e07f7a; background-color: transparent; }
 .code_par { margin-left: 40px; font-weight: bold; font-family: monospace; font-size: 14px; display: block;}
+html { color: black; background-color: rgb(220,220,220); font-family: arial, Sans-serif;}
+body { width: 1000px; background-color: rgb(245,245,245); position: absolute; height: 100%; left: 50%; margin-left : -500px; margin-top: 0; margin-bottom: 0;}
+html, header, nav, article, section, footer, figure, aside { display: block; margin-left: 10px; margin-right:10px;}
+header { text-align: center; background-color: SteelBlue; color: white}
+article { color: rgb(40,40,40);}
