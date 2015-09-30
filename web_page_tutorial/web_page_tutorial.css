@@ -3,28 +3,27 @@ code.not5, span.not5 { color: #aaaaaa; background-color: transparent; }
 code.new5, span.new5 { color: #b52c25; background-color: transparent; }
 code.new5but, span.new5but { color: #e07f7a; background-color: transparent; }
 .code_par { margin-left: 40px; font-weight: bold; font-family: monospace; font-size: 14px; display: block;}
-html { color: black; background-color: rgb(220,220,220); font-family: arial, Sans-serif;}
-body { 
-	width: 1000px; background-color: rgb(245,245,245); position: absolute; 
-	left: 50%; margin-left : -500px; margin-top: 0; margin-bottom: 0;
-	min-height: 100%;
-	border-left-width:2px;
-	border-left-color: Green;
-	border-left-style: solid;
-	border-right-width:2px;
-	border-right-color: Green;
-	border-right-style: solid;
-	}
+html { color: black; background-color: rgb(220,220,220); font-family: arial, Sans-serif; color: rgb(40,40,40);}
 html, header, nav, article, section, footer, figure, aside { display: block; margin-left: 10px; margin-right:10px;}
-header { text-align: center; background-color: SteelBlue; color: white}
-article {
-	color: rgb(40,40,40); 
-	border-left-width:2px;
-	border-left-color: Gold;
-	border-left-style: solid;
-	border-right-width:2px;
-	border-right-color: Gold;
-	border-right-style: solid;
-	padding: 10px;
-	}
+nav, article, section, footer, figure, aside { 
+	display: block; padding: 10px; width: 1000px; 
+	background-color: rgb(245,245,245); margin: auto;}
+header, footer {position: relative; width: 90%;}
+h1, h2, h3 { text-align: center; background-color: SteelBlue; color: white; }
 li {margin-top: 10px;}
+header, footer { background-color: #6B9BC3; color: rgb(240,240,240); 
+	position: fixed; height: 40px; font-size: 16px; 
+	font-family: "Bree Serif", Georgia, serif; padding: 0 5%;
+	border-radius: 5px; box-shadow: 0 0 4px 2px rgba(0,0,0,.7);
+	font-weight: bold;}
+header{top: 5px;}
+article {margin-top: 50px; box-shadow: 0 0 8px 2px rgba(0,0,0,.7);}
+article, header, footer { border-radius: 5px;}
+.left{position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-20%, -50%);}
+.right{position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(30%, -50%);}
