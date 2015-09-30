@@ -1,0 +1,5 @@
+html { color: rgb(40,40,40); background-color: rgb(220,220,220); font-family: arial, Sans-serif;}
+h1, h2 , h3{background-color: SteelBlue; color: white;}
+h1, h2 { text-align: center;}
+header, article, footer{ width: 1000px; background-color: rgb(245,245,245); padding: 10px;}
+.center { margin: auto; }

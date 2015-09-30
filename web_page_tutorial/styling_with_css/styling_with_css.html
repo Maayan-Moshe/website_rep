@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>web page from scratch - adding content</title>
+		<meta name="description" content="A detailed description of how to build web page only from html5">
+		<meta name="keywords" content="html5, tutorial, dummies, beginners">
+		<link rel="stylesheet" href="../web_page_tutorial.css">
+	</head>
+	<body>
+		<header>
+			<h2>Styling with css</h2>
+		</header>
+		<article>	
+			<ol>
+				<li>Open notepad++ and start a new file by clicking <b>File</b>&rarr;<b>New</b>.</li>
+				<li>Save the file in the same folder as your *.html file by the name "home_page_style.css".<br/>
+					You can do it by clicking <b>File</b>&rarr;<b>Save</b>. Now navigate the the relevant folder in the "Save in:" text box. 
+					Choose "Cascade Style Sheets File (*.css)" in the "Save as type:" dropbox. Write the name of the file and save.</li>
+				<li>Add the following line to "home_page_style.css":
+					<div class = "code_par">
+						html { color: rgb(40,40,40); background-color: rgb(220,220,220); font-family: arial, Sans-serif;}
+					</div>
+					This will change the color of the fonts to a little bit lighter than black. The background color to a little bit darker than white. 
+					The two things should make it easier for the user to read the content without trying his eye. 
+					Also it will change the default font to Arial.
+				</li>
+				<li>Add the following line to your *.html file:
+					<div class = "code_par">
+						&lt;link rel="stylesheet" href="home_page_style.css"&gt;
+					</div>
+					and look on the result on your browser.
+				</li>
+				<li>Add <code>h1, h2, h3{ background-color: SteelBlue; color: white;}</code> to make titles blue with white text.</li>
+				<li>Add <code>h1, h2 { text-align: center;}</code> to make  heavy titles centred text.</li>
+				<li>Add to the *.css file the lines:
+					<div class = "code_par">
+						header, article, footer{ width: 1000px; background-color: rgb(245,245,245); padding: 10px;}</br>
+						.center { margin: auto; }</div>
+				</li>
+				<li>Change to the line <code>&lt;header&gt;</code> to <code>&lt;header class = "center"&gt;</code>. This will make the header in the center of the page.</br>
+					Do the same thing the the <code>&lt;article&gt;</code> and <code>&lt;footer&gt;</code>.</li>
+			You can view the result of this page instructions <a href = "maayan_moshe_home_page.html">here</a> and the *.css file <a href = "home_page_style.css">here</a>.
+		</article>
+	</body>
+</html>
