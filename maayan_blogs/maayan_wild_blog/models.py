@@ -7,4 +7,4 @@ class web_page_content_location(models.Model):
 	name = models.CharField(max_length=200)
 	
 	def __str__(self):              # __unicode__ on Python 2
-        return self.name
+         return self.name
