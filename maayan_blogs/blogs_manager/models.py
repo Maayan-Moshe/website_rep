@@ -12,7 +12,7 @@ class WildBlog(models.Model):
 class WebPageContentLocation(models.Model):
     wild_blog = models.ForeignKey(WildBlog)
     path = models.CharField(max_length=300)
-    name = models.CharField(max_length=200)
+    name = models.CharField(max_length=200, primary_key = True)
 	
     def __str__(self):              # __unicode__ on Python 2
         return self.name
